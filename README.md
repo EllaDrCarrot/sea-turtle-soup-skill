@@ -1,6 +1,6 @@
 # 海龟汤.skill
 
-一个给通用 AI agent 使用的海龟汤 skill。
+由于众所周知的原因，但是本人又很喜欢玩海龟汤，所以做了一个海龟汤 skill。
 
 它可以陪你玩汤，也可以帮你煲汤、主持、复盘和改汤。
 
@@ -13,11 +13,11 @@
 - 把一碗逻辑松散的汤，改成能被公平盘出的汤；
 - 读取你自己的本地题库，提炼风格、机制和可迁移的设计方法。
 
-## 方法来源
+## 参考
 
-本 skill 的设计方法参考了许二木、老鸭汤、SZ 推理之夜等创作者的公开内容及用户整理材料，重点提炼短汤面信息密度、长叙事人物因果、主持机制和高概念叙事等可迁移方法。
+本 skill 参考了许二木、SZ推理之夜、老鸭汤等海龟汤创作者的公开海龟汤内容，重点提炼学习设计短汤面信息密度、长叙事人物因果、主持机制和高概念叙事等可迁移方法。
 
-本仓库不包含相关作品的完整汤面汤底、截图、视频或私有训练数据库，也不代表相关创作者的官方立场。各来源内容的版权仍归原作者或相应权利人所有。
+本仓库不包含相关作品的完整汤面汤底或私有训练数据库，也不代表相关创作者的官方立场。各来源内容的版权仍归原作者或相应权利人所有。
 
 ## 安装
 
@@ -92,15 +92,15 @@ corpus.jsonl 每行放一碗汤，至少包含：
 
 更完整的字段和 SQLite 用法见 references/local-database-extension.md。
 
-## 仓库里有什么
+## 仓库目录
 
     sea-turtle-soup-skill/
-    ├── SKILL.md                         # skill 本体
-    ├── agents/openai.yaml               # agent 界面信息
+    ├── SKILL.md                          # skill 本体
+    ├── agents/openai.yaml                # agent 界面信息
     └── references/
-        ├── fairness-rubric.md           # 公平性与第二解审计
-        ├── host-mechanism-schema.md     # 主持机制与状态机
-        ├── reasoning-element-taxonomy.md# 机制、形式、本体和主题分类
-        ├── local-database-extension.md  # 本地题库进阶用法
-        ├── style-profiles.md            # 三类设计能力
-        └── training-corpus-lessons.md   # 跨题可迁移原则
+        ├── fairness-rubric.md            # 公平性与第二解审计
+        ├── host-mechanism-schema.md      # 主持机制与状态机
+        ├── reasoning-element-taxonomy.md # 机制、形式、本体和主题分类
+        ├── local-database-extension.md   # 本地题库进阶用法
+        ├── style-profiles.md             # 三类设计能力
+        └── training-corpus-lessons.md    # 跨题可迁移原则

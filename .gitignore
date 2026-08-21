@@ -1,0 +1,29 @@
+# Local/private data
+training-corpus/
+archive/
+research/
+play-logs/
+raw/
+derived/
+
+# Local media exports
+*.mp4
+*.mkv
+*.mov
+*.webm
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.wav
+*.mp3
+
+# Local/editor/system files
+.env
+.env.*
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.vscode/
+.idea/
